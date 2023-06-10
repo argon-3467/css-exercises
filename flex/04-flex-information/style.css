@@ -8,8 +8,19 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+}
+
+div.flex-outer {
+  display: flex;
+  justify-content: space-evenly;
+  > div {
+    flex: 0 0 200px;
+    color: black;
+    text-align: center;
+  }
 }
 
 /* do not edit this footer */
